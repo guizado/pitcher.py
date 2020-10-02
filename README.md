@@ -5,7 +5,7 @@ Este programa recebe input audio através de um microfone e processa-o para indi
 [VIDEO/GIF DE EU A TOCAR FLAUTA COM O PROGRAMA LIGADO]
 
 ## Como funciona?
-[Imagem de um plot de um espetro de uma nota]
+![plot](https://github.com/guizado/pitcher.py/blob/main/media/plot.png?raw=true)
 Utilizando a biblioteca pyaudio, o input sonoro é transformado em sinais de tempo discreto. Ao aplicarmos o algoritmo FFT a estes dados conseguimos obter o espetro sonoro, e com este, a frequência fundamental. Pyaudio faz com que o input seja contínuo e não em blocos, por isso a previsão da nota musical é feita em tempo real. A interface do programa é feita com o Tkinter.
 
 ## Limitações
