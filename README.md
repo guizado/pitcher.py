@@ -10,8 +10,7 @@ Utilizando a biblioteca pyaudio, o input sonoro é transformado em sinais de tem
 
 ## Limitações
 ###### Microfone
-A eficácia depende do microfone utilizado. Para os exemplos dados, usei o microfone do meu portátil. Dado a má qualidade do mesmo, as notas nas oitavas mais baixas são muito dificéis de detectar, visto que as suas [frequências conrespondentes encontram-se muito próximas](https://github.com/guizado/pitcher.py/blob/main/media/lowfreqs.png?raw=true), logo o menor desvio de frequência lida a resultados errados. Sendo que nas oitavas mais altas as notas têm frequências fundamentais distantes uma das outras, a sua detecção tem mais acurácia. 
-[TABELA DE FREQUÊNCIAS]
+A eficácia depende do microfone utilizado. Para os exemplos dados, usei o microfone do meu portátil. Dado a má qualidade do mesmo, as notas nas oitavas mais baixas são muito dificéis de detectar, visto que as suas frequências conrespondentes encontram-se muito próximas, logo o menor desvio de frequência lida a resultados errados. Sendo que nas oitavas mais altas as notas têm frequências fundamentais distantes uma das outras, a sua detecção tem mais acurácia. [Comparação entre baixas e altas frequências fundamentais.]
 ###### Sons complexos
 Tendo em conta que o input é contínuo e em tempo real, sons complexos geram resultados variados. A eficácia do programa encontra-se em detetar sons mais simples como ondas harmónicas.
 ###### Ruído
