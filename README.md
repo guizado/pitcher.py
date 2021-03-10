@@ -4,7 +4,8 @@ Este programa recebe input audio através de um microfone e processa-o para indi
 [PROGRAMA DE 2 PERSPETIVAS: DO ECRÃ; DE EU A TOCAR FLAUTA A MOSTRAR O ECRÃ SINCRONIZADO COM O PRIMEIRO GIF]
 
 ## Como funciona?
-Utilizando a biblioteca pyaudio, o input sonoro é transformado em sinais de tempo discreto. Ao aplicarmos o algoritmo FFT a estes dados obtem-se o espetro sonoro, e com este, a frequência fundamental. Pyaudio faz com que o input seja contínuo e não em blocos, por isso o cálculo da nota musical é realizado em tempo real. A interface do programa é feita com Tkinter.
+Utilizando a biblioteca pyaudio, o input sonoro é transformado em sinais de tempo discreto. Ao aplicarmos o algoritmo FFT a estes dados obtem-se o espetro sonoro, e com este, a frequência fundamental. Pyaudio faz com que o input seja contínuo e não em blocos, por isso o cálculo da nota musical é realizado em tempo real.
+A interface do programa é feita com Tkinter.
 ![plot](https://github.com/guizado/pitcher.py/blob/main/media/plot.png?raw=true)
 
 ## Limitações
