@@ -15,4 +15,4 @@ A eficácia depende do microfone utilizado. Para os exemplos dados, usei o micro
 ###### Sons complexos
 Tendo em conta que o input é contínuo e em tempo real, sons complexos geram resultados variados. A eficácia do programa encontra-se em reconhecer sons mais simples como ondas harmónicas.
 ###### Ruído
-Sabendo que o programa está feito para sons simples, é óbvio que ruído de background influencia os resultados negativamente. Em sons com muita reverberação, o programa consegue identificar a altura do mesmo, mas devido à reverberação, os resultados desviam-se do pretendido. É de notar que estes desvios apresentavam propriedades musicas constantes, por exemplo, serem sempre o mesmo intervalo musical a partir da nota original.
+Sabendo que o programa está feito para sons simples, é óbvio que ruído de background influencia os resultados negativamente. 
