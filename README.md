@@ -1,7 +1,6 @@
 # pitcher.py
 Este programa recebe input audio através de um microfone e processa-o para indicar a altura do som, ou seja, que nota musical representa.
 
-[PROGRAMA DE 2 PERSPETIVAS: DO ECRÃ; DE EU A TOCAR FLAUTA A MOSTRAR O ECRÃ SINCRONIZADO COM O PRIMEIRO GIF]
 ![Exemplo com flauta](https://github.com/guizado/pitcher.py/blob/main/media/flauta.gif?raw=true)
 
 ## Como funciona?
